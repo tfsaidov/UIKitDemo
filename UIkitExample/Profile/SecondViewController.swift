@@ -23,10 +23,4 @@ final class SecondViewController: UIViewController {
             subview.frame = CGRect(x: 100, y: 100, width: 200, height: 200)
         }
     }
-    
-    @IBAction func didTapMainButton(_ sender: Any) {
-        print(#function)
-        let secondViewController = SecondViewController()
-        self.present(secondViewController, animated: true, completion: nil)
-    }
 }
